@@ -1,4 +1,4 @@
-Mean average precision is a widly used evaluation metric in detection and other tasks. However, I didn't find a solution that fits my preference, which are easy to understand, extensible and clean.
+Mean average precision is a widly used evaluation metric in detection and other tasks. However, I didn't find a solution that fits my preferences, which are easy to understand, extensible and clean.
 
 This repo is just some code snippets that calculates mAP in my prefered way.
 The calculation follows PASCAL VOC convention where precision is averaged over all recall values (as opposed to 11-points interpoation.)
@@ -22,7 +22,7 @@ I could provide a cli in the future, but this repo is meant to provide useful co
 
 
 ## Contribution
-Welcome any imporvements, bugs fixes etx.
+Welcome any imporvements, bugs fixes etc.
 
 Konwn issue:
     1. Some stability issue. The last test in `tests/test_mean_average_precision.py` will pass sometimes and fail othertimes. Which means my function is not entirly deterministic. I have yet to identify the issue.
