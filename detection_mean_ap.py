@@ -54,6 +54,9 @@ def calculate_iou(box: np.ndarray, boxes: np.ndarray) -> np.ndarray:
     """
     Calculate IoU between a single target box and a batch of boxes.
     Every box is in the format [xmin, ymin, xmax, ymax].
+    Args:
+        box: np.ndarray with shape (4,).
+        boxes: np.ndarray with shape (n, 4), where n is number of boxes.
     """
     box_area = (box[2] - box[0]) * (box[3] - box[1])
     boxes_area = (boxes[:, 2] - boxes[:, 0]) * (boxes[:, 3] - boxes[:, 1])
