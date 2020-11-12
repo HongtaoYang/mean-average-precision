@@ -14,9 +14,9 @@ There is a base `MeanAveragePrecisoin` class in `base.py` that lays out the skel
 Basically you need to have a set of ground truth items and a set of predicted items, pass them to the `MeanAveragePrecisoin` class and call `mAP` method.
 
 See `example.py` for an example, where 
-    1. gt bounding boxes and predicted bounding boxes are wirtten to txt files;
-    2. I load them and covert the format;
-    3. calculate mAP.
+- gt bounding boxes and predicted bounding boxes are wirtten to txt files;
+- I load them and covert the format;
+- calculate mAP.
 
 I could provide a cli in the future, but this repo is meant to provide useful code snippets that you can copy to use in your own projects.
 
@@ -25,4 +25,4 @@ I could provide a cli in the future, but this repo is meant to provide useful co
 Welcome any imporvements, bugs fixes etc.
 
 Konwn issue:
-    1. Some stability issue. The last test in `tests/test_mean_average_precision.py` will pass sometimes and fail othertimes. Which means my function is not entirly deterministic. I have yet to identify the issue.
+1. Some stability issue. The last test in `tests/test_mean_average_precision.py` will pass sometimes and fail othertimes. Which means my function is not entirly deterministic. I have yet to identify the issue.
