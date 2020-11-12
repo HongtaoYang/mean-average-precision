@@ -1,4 +1,4 @@
-Mean average precision is a widly used evaluation metric in detection and other tasks. However, I didn't find a solution that fits my requirements, which are easy to understand, extensible and clean.
+Mean average precision is a widly used evaluation metric in detection and other tasks. However, I didn't find a solution that fits my preference, which are easy to understand, extensible and clean.
 
 This repo is just some code snippets that calculates mAP in my prefered way.
 The calculation follows PASCAL VOC convention where precision is averaged over all recall values (as opposed to 11-points interpoation.)
